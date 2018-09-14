@@ -1,0 +1,85 @@
+.header-container {
+  background-color: #333333;
+  height: 50px;
+  width: 100%;
+  color: lightgrey;
+  font-size: 90%;
+}
+.header-content {
+  display: flex;
+  padding: 5px;
+}
+.brand {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 50%;
+  padding-left: 40px;
+}
+
+// .headernav-container { background-color: #f8f8f8; height: 200px; width: 100%; }
+.headernav-content {
+  float: right;
+  // height: 50px;
+}
+
+.register_signin {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 50%;
+  padding-right: 300px;
+  line-height: 2em;
+  color: #e6e6e6;
+  cursor: pointer;
+ 
+}
+
+nav {
+  background: #fff;
+  float: left;
+}
+nav ul {
+  text-align: center;
+}
+nav ul li {
+  float: left;
+  display: inline;
+}
+nav ul li:hover {
+  background: none;
+}
+nav ul li a {
+  display: block;
+  padding: 20px 25px;
+  font-size: 16px;
+  padding-right: 5px;
+  color: purple;
+}
+nav ul li a:hover {
+  color: #00c8c8;
+  text-decoration: none;
+}
+nav ul li ul {
+  position: absolute;
+  width: 150px;
+  background: #fff;
+}
+nav ul li ul li {
+  width: 100px;
+}
+nav ul li ul li a {
+  display: block;
+  padding: 5px 5px;
+}
+nav ul li ul li:hover a {
+  background: none;
+  color: #00c8c8;
+  
+}
+nav ul li ul.fallback {
+  display: none;
+}
+nav ul li:hover ul.fallback {
+  display: block;
+}

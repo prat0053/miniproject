@@ -1,0 +1,36 @@
+.brand_container {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  opacity: 0.5;
+  filter: alpha(opacity=50); }
+
+.brand_cover-image {
+  z-index: -1; }
+
+.brand-logo {
+  position: absolute;
+  left: 25%;
+  top: 40%;
+  text-align: center;
+  width: 50%; }
+
+.brand-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  height: 800wh;
+  width: 80%;
+  margin-left: 180px;
+  flex-flow: row; }
+
+.brand-flex-container .box1 {
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  margin: 3px;
+  text-align: left;
+  padding-left: none;
+  line-height: 20px; }
